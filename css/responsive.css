@@ -1,0 +1,145 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    #wrapper{ width: 100%;}
+}
+/*Ipad d?c(768 x 1024)*/
+@media screen and (max-width: 768px){
+    #content2{ width: 100%; float: none;}
+    #content1{ width: 100%; float: none;}
+    #slide { width: 100%;height: 50%;float: none; padding-left: 0px;margin-bottom: 400px}
+    #logo1{width: 100%; float: none;}
+    #intro1{width: 0%; float: none;padding-left: 0px;}
+    #login{width: 100%; float: none;padding-left: 0px;}
+    #kiemtradonhang{
+        width: 100%;float: none;padding-left: 0px;
+    }
+    #dms{width: 0%;float: left;
+        height: 0px;}
+    #menu{width: 0%;float: none;height: 0%;opacity: 0}
+    /*#menulist{width: 20%;float: none;height: 0%;opacity: 0}*/
+    #bestseller{width: 100%;
+        float: none;margin-top: -100px}
+    #books{width: 100%;
+        float: none;}
+    #aboutme{width: 100%;
+        float: none;}
+    #help{width: 100%;
+        float: none;}
+    #keepupwith{width: 100%;
+        float: none;}
+    #creditcard{width: 100%;
+        float: none;}
+    #video{width: 100%;
+        float: none;}
+    .slideshow div a img{height: 350px;width: 700px;padding-left: 30px;}
+
+    .anhsach:hover{
+
+    }
+    #goTop{width: 0%;float: none;height: 0%;opacity: 0}
+
+
+}
+/*Tablet nh?(480 x 640)*/
+@media screen and (max-width: 480px){
+    /*.slideshow div a img{height: 160px;width: 300px}*/
+    /*#bestseller{margin-top: -300px}*/
+
+}
+/*Iphone(480 x 640)*/
+@media all and (max-width: 320px){
+    #header1{
+     width: 100%; float: none;
+        ;
+        padding-right: 30px;
+    }
+    #header2{
+        width: 100%; float: none;background-color: transparent;box-shadow: 0px 0px 0px rgba(0,0,0,0); ;padding-right: 25px;}
+    #content1{
+        width: 100%; float: none; ;padding-right: 25px;
+    }
+    #content2{
+        width: 100%; float: none; ;padding-right: 25px;
+        margin-top: -250px;
+    }
+    #footer1{
+        width: 100%; float: none; ;padding-right: 25px;}
+    #footer2{
+        width: 100%; float: none; ;padding-right: 25px;
+    }
+
+    #bestseller{
+        border: none;
+    }
+    #search1{
+        width: 100%; float: none;;;padding-top: 20px;margin-right: 20px;
+    }
+    #cart1{
+        width: 120%; float: none;margin-left: -00px;margin-right: 00px;;
+    }
+    #kiemtradonhang{
+        width: 93%; float: none;;;padding-top: 20px;margin-right: 20px;margin-left: 16px;
+    }
+    #fb-root{
+        width: 100%;float: none;
+    }
+    #MenuBar1 li{
+        width: 40%;float: none;
+        border: none;
+        border-bottom: none; !important;
+    }
+    #MenuBar1{
+        border: none;
+    }
+    ul{
+        border: none;
+    }
+    li{
+        border: none;
+    }
+    a{
+        border: none;
+    }
+    div{
+        border: none;
+    }
+    hr{
+        width: 0%;
+    }
+    #menulist ul li ul li{
+        border: none;
+    }
+    body{
+        border: none;
+    }
+    .anhsach{
+        width: 50%;
+        float: none;
+    }
+    .noidungsach{
+        width: 50%;
+        float: none;
+    }
+    #menulist{
+        width: 0%;max-width: 5px;margin-left: -20px;padding-right: 50px;margin-bottom: 30px;
+    }
+    .aaa ul li{
+        width: 00%;max-width: 10px;border: none ;
+    }
+    .MenuBarVertical {
+        border: none;
+    }
+    #slide{
+        width: 100%;float: none;
+    }
+    script{
+        width: 0%;max-width: 0px;float: none;
+    }
+    #goTop{
+        width: 0%;margin-right: 100px;float: none;
+    }
+}
+/*Smart phone nh?*/
+@media screen and (max-width: 240px){
+
+}
